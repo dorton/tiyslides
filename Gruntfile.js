@@ -48,7 +48,12 @@ module.exports = function(grunt) {
 					'css/theme/sky.css': 'css/theme/source/sky.scss',
 					'css/theme/moon.css': 'css/theme/source/moon.scss',
 					'css/theme/solarized.css': 'css/theme/source/solarized.scss',
+<<<<<<< HEAD
 					'css/theme/blood.css': 'css/theme/source/blood.scss'
+=======
+					'css/theme/blood.css': 'css/theme/source/blood.scss',
+					'css/theme/tiy.css': 'css/theme/source/tiy.scss'
+>>>>>>> gh-pages
 				}
 			}
 		},
