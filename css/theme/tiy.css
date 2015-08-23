@@ -11,15 +11,19 @@ html * {
  * GLOBAL STYLES
  *********************************************/
 body {
-  background-color: #303030; }
+  background-image: url(/images/bg2.png);
+  background-color: #303030;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
 
 .reveal {
   font-family: "PT Serif", serif;
-  font-size: 36px;
+  font-size: 46px;
   font-weight: normal;
   letter-spacing: -0.02em;
   color: #f5f5f5;
-  background: url(https://files.slack.com/files-pri/T03E0467C-F04FCBVDV/tiiy-logo-500px-white.png) no-repeat bottom 15px left 15px; }
+  background: url(/images/logo_small.png) no-repeat bottom 10px right 10px; }
 
 ::selection {
   color: #fff;
@@ -39,7 +43,7 @@ body {
   color: #ffffff;
   font-weight: bold;
   font-family: "PT Serif", sans-serif;
-  line-height: 0.9em;
+  line-height: 1.2em;
   letter-spacing: 0.02em;
   text-transform: none;
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
@@ -84,9 +88,9 @@ body {
  *********************************************/
 .reveal section img {
   margin: 15px 0px;
-  background: rgba(255, 255, 255, 0.12);
-  border: 1px solid #f5f5f5;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  background: transparent;
+  border: 0px solid #f5f5f5;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.15);
   -webkit-transition: all .2s linear;
   -moz-transition: all .2s linear;
   -ms-transition: all .2s linear;
@@ -148,5 +152,23 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #6fb3d2; }
+
+li.fragment {
+  margin-bottom: 0.5em; }
+
+.reveal .circle {
+  display: center;
+  width: 250px;
+  height: 250px;
+  margin: 1em auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border: 5px solid #eee;
+  border-radius: 99em;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+  -webkit-filter: drop-shadow(5px 5px 5px #222); }
 
 /*# sourceMappingURL=tiy.css.map */
