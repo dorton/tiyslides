@@ -45,7 +45,7 @@ $selectionBackgroundColor: $base0E;
  *********************************************/
 
 body {
-  background-image: url(/images/bg2.png);
+  background-image: url(/tiyslides/images/bg2.png);
   background-color: $backgroundColor;
   background-repeat: no-repeat;
   background-size: cover;
@@ -58,7 +58,7 @@ body {
   font-weight: normal;
   letter-spacing: -0.02em;
   color: $mainColor;
-  background: url(/images/logo_small.png) no-repeat bottom 10px right 10px;
+  background: url(/tiyslides/images/logo_small.png) no-repeat bottom 10px right 10px;
 }
 
 ::selection {
