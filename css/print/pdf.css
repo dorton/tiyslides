@@ -24,6 +24,11 @@ body {
 	padding: 0;
 	float: none !important;
 	overflow: visible;
+	background-image: url(/tiyslides/images/bg2.png);
+  background-color: #303030;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 html {
@@ -91,6 +96,7 @@ ul, ol, div, p {
 	width: auto !important;
 	height: auto !important;
 	overflow: hidden !important;
+	background: url(/tiyslides/images/logo_small.png) no-repeat bottom 10px right 10px;
 }
 .reveal .slides {
 	position: static;
