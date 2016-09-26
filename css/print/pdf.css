@@ -26,7 +26,7 @@ body {
 	overflow: visible;
 	background-image: url(/tiyslides/images/bg2.png);
   background-color: #303030;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   background-position: center;
 }
